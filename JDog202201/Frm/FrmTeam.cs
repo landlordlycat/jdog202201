@@ -100,6 +100,7 @@ namespace JDog202201.Frm
 
         private void button2_Click(object sender, EventArgs e)
         {
+            /**
             String url = "http://jd.abug.cc/user.php";
             HttpHelper http = new HttpHelper();
             HttpItem item = new HttpItem();
@@ -114,7 +115,7 @@ namespace JDog202201.Frm
                     pk(res["team_code"].ToString());
                     //pk(res["pk_code"].ToString());
                 }
-            }
+            }**/
         }
 
         private void pk(string code)
